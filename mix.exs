@@ -54,7 +54,8 @@ defmodule GuardianAuthApi.MixProject do
       {:bandit, "~> 1.5"},
       {:guardian, "~> 2.4"},
       {:bcrypt_elixir, "~> 3.0"},
-      {:dotenvy, "~> 0.8.0"}
+      {:dotenvy, "~> 0.8.0"},
+      {:cors_plug, "~> 3.0"}
     ]
   end
 
